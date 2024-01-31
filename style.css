@@ -46,7 +46,7 @@ body .container .topTxt .btn-purple {
 body .container .bottom {
   position: relative;
   margin-bottom: 10%;
-  flex-direction: column;
+  border-right: 2px solid white;
 }
 body .container .bottom .iconContent {
   display: flex;
@@ -59,7 +59,7 @@ body .container .bottom .iconContent .fix {
   margin-bottom: 7px;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 770px) {
   .DevCourse {
     font-size: 50px !important;
   }
@@ -67,10 +67,8 @@ body .container .bottom .iconContent .fix {
     display: flex;
     flex-direction: column;
   }
-  .down {
-    margin-bottom: 15% !important;
-    display: flex;
-    flex-direction: column;
+  .bottom {
+    border-right: none !important;
   }
   h2 {
     font-size: 1.5rem;

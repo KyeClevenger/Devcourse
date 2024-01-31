@@ -52,7 +52,7 @@ body{
             .bottom{
                 position: relative;
                 margin-bottom: 10%;
-                flex-direction: column;
+                border-right: 2px solid white;
 
                 .iconContent{
                     display: flex;
@@ -70,7 +70,7 @@ body{
     }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 770px) {
     .DevCourse {
         font-size: 50px !important;
     }
@@ -80,11 +80,8 @@ body{
         flex-direction: column;
     }
 
-    .down{
-        margin-bottom: 15% !important;
-
-        display: flex;
-        flex-direction: column;
+    .bottom{
+        border-right: none !important;
     }
 
     h2 {
