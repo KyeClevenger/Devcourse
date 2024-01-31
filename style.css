@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+body .bg {
+  background-image: url("https://burst.shopifycdn.com/photos/developer-coding-in-php.jpg?width=1000&format=pjpg&exif=0&iptc=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+}
+body .bg #text {
+  background-color: rgba(0, 0, 0, 0.488);
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+}
+.container .toptxt {
+  padding: 10%;
+}
+.container .toptxt .DevCourse {
+  font-size: 10vw;
+  font-size: 10vh;
+  padding: 25px;
+}
+.container .toptxt .btn-purple {
+  background-color: rgb(153, 72, 178);
+  margin: 25px;
+  color: white;
+  padding: 15px;
+  border-radius: 25px;
+}/*# sourceMappingURL=style.css.map */
