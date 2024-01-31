@@ -1,6 +1,6 @@
 body{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 
     .bg{
         background-image: url("https://burst.shopifycdn.com/photos/developer-coding-in-php.jpg?width=1000&format=pjpg&exif=0&iptc=0");
@@ -28,11 +28,19 @@ body{
 
     .toptxt{
         padding: 10%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
 
         .DevCourse{
-            font-size: 10vw;
-            font-size: 10vh;
-            padding: 25px;
+            font-size: 8vw;
+            font-size: 8vh;
+        }
+
+        .Purpletxt{
+            font-size: 8vw;
+            font-size: 8vh;
+            color:  rgb(153, 72, 178);
         }
 
         .btn-purple{
@@ -50,12 +58,9 @@ body{
         justify-content: space-evenly;
 
         .bottom{
-            margin-bottom: 15%;
             position: relative;
             display: flex;
-            flex-direction: row;
             justify-content: center;
-            align-items: center;
 
             .align{
                 display: flex;
