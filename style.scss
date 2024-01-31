@@ -23,7 +23,7 @@ body{
         display: flex;
         flex-direction: column-reverse;
         
-        .toptxt{
+        .topTxt{
             padding: 10%;
             display: flex;
             align-items: center;
@@ -31,16 +31,14 @@ body{
             display: inline;
             
             .DevCourse{
-                font-size: 8vw;
-                font-size: 8vh;
                 margin: 10px;
+                font-size: 80px;
+
+                .PurpleTxt{
+                    color:  rgb(153, 72, 178);
+                }
             }
             
-            .Purpletxt{
-                font-size: 8vw;
-                font-size: 8vh;
-                color:  rgb(153, 72, 178);
-            }
             
             .btn-purple{
                 background-color: rgb(153, 72, 178);
@@ -51,10 +49,10 @@ body{
             }
             
         }
-
             .bottom{
                 position: relative;
-                margin-bottom: 5%;
+                margin-bottom: 10%;
+                flex-direction: column;
 
                 .iconContent{
                     display: flex;
@@ -69,5 +67,31 @@ body{
                 }
             }
             
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .DevCourse {
+        font-size: 50px !important;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .down{
+        margin-bottom: 15% !important;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
     }
 }

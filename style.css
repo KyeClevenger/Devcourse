@@ -22,24 +22,21 @@ body .container {
   display: flex;
   flex-direction: column-reverse;
 }
-body .container .toptxt {
+body .container .topTxt {
   padding: 10%;
   display: flex;
   align-items: center;
   flex-direction: column;
   display: inline;
 }
-body .container .toptxt .DevCourse {
-  font-size: 8vw;
-  font-size: 8vh;
+body .container .topTxt .DevCourse {
   margin: 10px;
+  font-size: 80px;
 }
-body .container .toptxt .Purpletxt {
-  font-size: 8vw;
-  font-size: 8vh;
+body .container .topTxt .DevCourse .PurpleTxt {
   color: rgb(153, 72, 178);
 }
-body .container .toptxt .btn-purple {
+body .container .topTxt .btn-purple {
   background-color: rgb(153, 72, 178);
   margin: 25px;
   color: white;
@@ -48,7 +45,8 @@ body .container .toptxt .btn-purple {
 }
 body .container .bottom {
   position: relative;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
+  flex-direction: column;
 }
 body .container .bottom .iconContent {
   display: flex;
@@ -59,4 +57,25 @@ body .container .bottom .iconContent {
 body .container .bottom .iconContent .fix {
   margin-right: 10px;
   margin-bottom: 7px;
+}
+
+@media only screen and (max-width: 750px) {
+  .DevCourse {
+    font-size: 50px !important;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .down {
+    margin-bottom: 15% !important;
+    display: flex;
+    flex-direction: column;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
 }/*# sourceMappingURL=style.css.map */
