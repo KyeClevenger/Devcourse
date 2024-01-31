@@ -28,10 +28,12 @@ body{
             display: flex;
             align-items: center;
             flex-direction: column;
+            display: inline;
             
             .DevCourse{
                 font-size: 8vw;
                 font-size: 8vh;
+                margin: 10px;
             }
             
             .Purpletxt{

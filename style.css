@@ -27,10 +27,12 @@ body .container .toptxt {
   display: flex;
   align-items: center;
   flex-direction: column;
+  display: inline;
 }
 body .container .toptxt .DevCourse {
   font-size: 8vw;
   font-size: 8vh;
+  margin: 10px;
 }
 body .container .toptxt .Purpletxt {
   font-size: 8vw;
