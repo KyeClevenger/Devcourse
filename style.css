@@ -9,7 +9,7 @@ body .bg {
   z-index: -2;
 }
 body .bg #text {
-  background-color: rgba(0, 0, 0, 0.488);
+  background-color: rgba(0, 0, 0, 0.533);
   height: 100vh;
   width: 100vw;
   position: absolute;
@@ -21,6 +21,8 @@ body .bg #text {
   height: 100vh;
   width: 100vw;
   color: white;
+  display: flex;
+  flex-direction: column-reverse;
 }
 .container .toptxt {
   padding: 10%;
@@ -36,4 +38,33 @@ body .bg #text {
   color: white;
   padding: 15px;
   border-radius: 25px;
+}
+.container .threedivs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.container .threedivs .bottom {
+  margin-bottom: 15%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container .threedivs .bottom .align {
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+  border-right: 3px solid white;
+}
+.container .threedivs .bottom .align h4 {
+  margin-left: 5px;
+}
+.container .threedivs .bottom .align .top {
+  display: flex;
+  flex-direction: row;
+}
+.container .threedivs .fix {
+  margin: 3px;
 }/*# sourceMappingURL=style.css.map */
